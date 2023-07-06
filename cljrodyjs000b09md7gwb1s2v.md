@@ -29,8 +29,6 @@ In this article, we will:
 
 By the end of this article, you will learn how to deploy your smart contracts to Scroll's Alpha testnet with Foundry.
 
-[![D_D Newsletter CTA](https://sitemedia.ams3.digitaloceanspaces.com/blog_banner_v1_d1653cce08.png align="left")](https://devdao.to/blog-newsletter-1)
-
 ## What is the Scroll zkEVM?
 
 [![Scroll zkEVM ](https://cdn.hashnode.com/res/hashnode/image/upload/v1684610085910/a1b2a67b-3545-48e0-96c8-376d75bbc21d.png align="center")](https://scroll.io/)
@@ -387,8 +385,6 @@ forge verify-contract <CONTRACT_ADDRESS> src/ScrollTutorial.sol:Dispenser --chai
 > Note: The Blockscout API seems to be down, and its behavior has been acknowledged as inconsistent by the Scroll docs. I couldn't verify my contract from the command line, and you may also face the same issue. You can verify it from Blockscout's UI, though.
 
 Once your contract has been verified, you can interact with it from Blockscout's UI.
-
-[![D_D Newsletter CTA](https://sitemedia.ams3.digitaloceanspaces.com/blog_banner_v1_d1653cce08.png align="left")](https://devdao.to/blog-newsletter-1)
 
 ## Conclusion
 
